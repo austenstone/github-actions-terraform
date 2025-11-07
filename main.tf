@@ -1,7 +1,7 @@
 # Resource Group
 resource "azurerm_resource_group" "rg" {
   name     = "rg-github-actions-terraform"
-  location = "East US"
+  location = "East US 2"
 }
 
 # Azure Static Web App
